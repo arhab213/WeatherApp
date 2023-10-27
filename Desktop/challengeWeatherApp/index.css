@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+}
+ 
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./assets/illiya-vjestica-W5FdAcHp7l8-unsplash.jpg) center/cover no-repeat;
+    height:90vh;
+     
+ }
+ #location{
+ padding:10px 20px;
+ border: solid black 0.5px;
+ border-radius: 5px;
+ background: white;
+ }
+
+ .container{
+ background: rgb(244,242,205);
+ background: linear-gradient(54deg, rgba(244,242,205,0.9037990196078431) 0%, rgba(27,255,20,0.7217261904761905) 8%, rgba(11,133,255,0.48363095238095233) 85%, rgba(2,215,226,0.4051995798319328) 100%);
+ padding:50px;
+ border-radius:10px;
+
+ color:white;
+ }
+ #get-weather{
+    border:none;
+    padding:10px 20px;
+    border-radius: 5px;
+    background: white;
+ }
+.DivWeather{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 3px;
+    color: rgb(102, 102, 102);
+    background: white;
+    margin-top:10px;
+    padding:20px;
+
+}
+#city{
+    margin-right:190px;
+}
+#Weather{
+    margin-bottom: 5px;
+}
+#weatherAndIcon{
+   margin-left:200px; 
+}
